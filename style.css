@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+  font-family: 'karla';
+  font-size: 16px;
+  background-color: #F2F2F2;
+}
+body{
+  padding: 50px;
+}
+h4, h2, p {
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.card {
+  width: 600px;
+  height: 400px;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0 , 0.35);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.top-div {
+  width: 100%;
+  height: 43%;
+  padding: 27px;
+  background-color: white;
+}
+.bottom-div {
+  width: 100%;
+  height: 57%;
+  color: white;
+}
+.left-div {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #29A699;
+  padding: 27px;
+}
+.right-div {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #4EBFB4;
+  padding: 27px;
+}
+.top-div h2 {
+  color: #29A699;
+  margin-bottom: 20px;
+}
+.top-div h4 {
+  color: #BED062;
+  margin-bottom: 8px;
+}
+.top-div p {
+  color: #98a6bd;
+
+}
+.left-div h4 {
+  margin-bottom: 25px
+}
+button {
+  color: white;
+  background-color: #C5D932;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0 , 0.2);
+
+}
+button:hover {
+  cursor: pointer;
+  background-color: #A5B52A;
+  transform: scale(1.02);
+}
+.price {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.price, .price-freq {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.price-freq {
+  position: relative;
+  top: -3px;
+  right: -4px;
+  opacity: 0.5;
+  font-size: 1rem;
+}
+.left-div p {
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+  opacity: 0.9
+  
+}
+ul {
+  padding: 0px;
+  list-style: none;
+  opacity: 0.7;
+  font-size: 0.9rem
+}
+li {
+  margin: 4px
+}
