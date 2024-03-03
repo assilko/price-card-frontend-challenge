@@ -6,6 +6,8 @@ This repository contains a solution to a Price Card challenge implemented using 
 
 Preview:
 
+![](./screenshot.jpg)
+
 Features:
 Responsive Design: The card is optimized for desktop view and adjusts gracefully to smaller screens with a responsive design.
 
